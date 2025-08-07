@@ -1,0 +1,77 @@
+/* Browsers have default styles */
+/* REMOVE ALL by targeting an '*' */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*
+background-image: linear-gradient(red, yellow);
+*/
+
+.lj-outline {
+    /*color: white;*/
+    -webkit-text-stroke: 0.5px black;  /* Outline thickness and color */
+  }
+
+.lj-center {
+    /*centralize the contents vert and horizontaly*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.lj-title-bg {
+    background-color: rgba(0, 255, 255, 0.5);
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color:black;
+    height: 20vh;/*viewport height*/
+    /*Add background pic*/
+    background-image: url(images/Space.jpg);
+}
+
+/*Change heading 1 color and center*/
+header h1{
+    color:aqua;
+    font-weight: bold;
+    /*centralize*/
+    text-align: center;
+}
+
+main {
+    color: white;
+    background-color: blueviolet;
+    background-image: url(images/robotics3.jpg);
+    background-size: 100% 100%;
+    height: auto;/*viewport height*/
+}
+
+main section {
+    /* border: solid 2px; */
+    margin: 20px;
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+main section h1, p, button {
+    margin: 20px;
+    padding: 20px;
+}
+
+footer {
+    color: aqua;
+    background-color: black;
+    height: 10vh;/*viewport height*/
+    padding: 10px;
+}
